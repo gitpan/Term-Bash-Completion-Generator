@@ -1,4 +1,10 @@
-commit c21b60bb4c00887873ad14ef41ccaf10ab3d59c9 (refs/heads/master)
+commit fca321963eba6eabee34922384a9f1809c5b8c5a (refs/heads/master)
+Author: nadim khemir <nkh@cpan.org>
+Date:   Wed Jan 14 18:07:12 2009 +0100
+
+    FIXED: dependencies
+
+commit c21b60bb4c00887873ad14ef41ccaf10ab3d59c9
 Author: nadim khemir <nkh@cpan.org>
 Date:   Mon Jan 12 12:09:42 2009 +0100
 

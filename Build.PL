@@ -133,19 +133,20 @@ my $build = $class->new
 	dist_version => GetVersionAndRevisionFrom('lib/Term/Bash/Completion/Generator.pm'),
 	
 	license => 'perl',
-	
+	build_requires => 
+		{
+		'Text::Diff' => 0,
+		'Test::Block' => 0,
+		'Test::Exception' => 0,
+		'Test::NoWarnings' => 0,
+		'Test::Warn' => 0,
+		},
 	requires => 
 		{
 		'Readonly'         => 0,
 		'Sub::Exporter'     => 0,
 		'Tree::Trie' => 0,
 		'IO::Select' => 0,
-		
-		'Test::Block' => 0,
-		'Test::Exception' => 0,
-		'Test::NoWarnings' => 0,
-		'Test::Warn' => 0,
-		'Test::Strict' => 0,
 		},
 		
 	pm_files     => \%all_modules,
